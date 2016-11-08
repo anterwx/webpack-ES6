@@ -1,0 +1,20 @@
+@import "./variables";
+h1{
+  color: $red;
+  background-position: left;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-image: url("../imgs/angular.png");
+  height: 300px;
+}
+h2{
+  font-size: 20px;
+  color: $red;
+}
+p{
+  padding: 20px;
+  color: white;
+  background-color: $red;
+  font-size: 20px;
+  font-weight: 600;
+}
